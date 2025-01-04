@@ -5,12 +5,11 @@ import { CheckCircle2, Coffee, Heart, CircleDollarSign } from "lucide-react"
 import { fontHeading } from "@/lib/fonts"
 import Header from "@/components/Header"
 
-import { useSession } from "next-auth/react";
 import Faq from "@/components/Faq"
 
 function Pricing() {
 
-    const { data: session } = useSession();
+    const session = false
 
     const pricingPlans = [
         {
@@ -43,7 +42,7 @@ function Pricing() {
 
     return (
         <>
-        <Header session = { session } />
+        <Header />
             <div className="mt-10 flex flex-col items-center gap-10 text-center">
                 <h1
                     className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${fontHeading.variable}`}
@@ -92,7 +91,7 @@ function Pricing() {
                         {p.features.length > 0 && (
                             <div className="mt-5 w-full text-sm flex flex-col gap-2">
                                 {p.features.map((f, idx) => (
-                                    <div key="idx">
+                                    <div key={`${p.id}-${idx}`}>
                                     <div className="flex flex-row gap-2 items-center">
                                         {f.startsWith("Support") ? (
                                             <Heart className="text-red-500 dark:text-red-700 w-5 h-5" />

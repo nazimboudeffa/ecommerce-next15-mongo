@@ -9,7 +9,7 @@ export default function Features() {
             <h2 className="text-3xl font-bold sm:text-4xl">Start your e-commerce activity</h2>
 
             <p className="mt-4 text-gray-300">
-                Don't loose your time and start an online business.
+                Don&apos;t loose your time and start an online business.
             </p>
             </div>
 
