@@ -9,8 +9,6 @@ import Faq from "@/components/Faq"
 
 function Pricing() {
 
-    const session = false
-
     const pricingPlans = [
         {
             id: "0",
