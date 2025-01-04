@@ -13,11 +13,11 @@ function Hero () {
             className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
             >
             <h2 className="text-2xl font-bold md:text-3xl">
-                Buy and sell online.
+                Sell your products online.
             </h2>
 
             <p className="hidden text-gray-100 md:mt-4 md:block">
-               You were searching for a solution to buy and sell products online, you are in the right place. 
+               A solution to sell products online in your local area. 
             </p>
 
             <div className="mt-4 md:mt-8">
