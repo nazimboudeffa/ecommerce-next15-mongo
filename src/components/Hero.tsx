@@ -25,7 +25,7 @@ function Hero () {
                 href="https://demo.instant-market.com"
                 className="btn px-12 py-3 text-sm font-medium"
                 >
-                Mini Store Demo
+                Instant Store Demo
                 </Link>
             </div>
             </div>
