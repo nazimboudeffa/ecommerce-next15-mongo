@@ -1,5 +1,5 @@
 "use client"
-import Header from '@/components/Header';
+import NavBar from '@/components/NavBar';
 import Hero from '@/components/Hero';
 import Problem from '@/components/Problem';
 import Features from '@/components/Features';
@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <>
-    <Header />
+    <NavBar />
     <main className="min-h-screen flex flex-col justify-between">
       <Hero />
       <Problem />

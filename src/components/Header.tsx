@@ -31,13 +31,6 @@ function Header () {
                         Explore
                     </Link>
                     </li>
-                    <li>
-                    <Link className="underline"
-                        href="/pricing"
-                    >
-                        Pricing
-                    </Link>
-                    </li>
                 </ul>
                 </nav>
             </div>
