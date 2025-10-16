@@ -22,7 +22,7 @@ function Hero () {
 
             <div className="mt-4 md:mt-8">
                 <Link
-                href="https://demo.instant-market.com"
+                href="https://demo.instant-store.com"
                 className="btn px-12 py-3 text-sm font-medium"
                 >
                 Instant Store Demo
